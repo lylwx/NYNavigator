@@ -7,6 +7,7 @@
 //
 
 #import "NYURLPattern.h"
+#import "NYLog.h"
 static Class defaultWebViewControllerClass = NULL;
 
 @implementation NYURLPattern
@@ -45,8 +46,8 @@ static Class defaultWebViewControllerClass = NULL;
 - (Class)targetClass {
   if (_type == NYURLPatternTypeHttp) {
     if (defaultWebViewControllerClass == NULL) {
-      NSLog(@"default WebViewController Class is not assigned, please call "
-            @"[NVURLPattern setDefaultWebViewControllerClass:] method "
+      NYLog(@"default WebViewController Class is not assigned, please call "
+            @"[NYURLPattern setDefaultWebViewControllerClass:] method "
             @"first!!");
       return NULL;
     }

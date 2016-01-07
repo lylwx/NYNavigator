@@ -10,6 +10,8 @@
 #import "NYURLPattern.h"
 #import "NSArray+Functional.h"
 #import "NYNavigationViewControllerProtocal.h"
+#import "NYLog.h"
+
 static NYNavigator *gNavigator = nil;
 void NYInternalSetNavigator(NYNavigator *navigator) { gNavigator = navigator; }
 
@@ -144,7 +146,7 @@ void NYInternalSetNavigator(NYNavigator *navigator) { gNavigator = navigator; }
         }
       }
     } else {
-      NSLog(@"[url mapping error] file(%@) is empty!!!!", fileName);
+      NYLog(@"[url mapping error] file(%@) is empty!!!!", fileName);
     }
   }
   return _urlMapping;
@@ -203,7 +205,7 @@ void NYInternalSetNavigator(NYNavigator *navigator) { gNavigator = navigator; }
 - (UIViewController *)openURLAction:(NYURLAction *)urlAction
                  fromViewController:(UIViewController *)controller {
   if (![urlAction isKindOfClass:[NYURLAction class]]) {
-    NSLog(@"*****************[open url action error] urlAction(%@) is not a "
+    NYLog(@"*****************[open url action error] urlAction(%@) is not a "
           @"kind of NYURLAction",
           NSStringFromClass([urlAction class]));
     return nil;

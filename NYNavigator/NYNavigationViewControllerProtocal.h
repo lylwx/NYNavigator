@@ -9,7 +9,6 @@
 
 @protocol NYNavigatorViewControllerProtocal <NSObject>
 
-@optional
-
 - (BOOL)handleWithURLAction:(NYURLAction *)urlAction;
+
 @end

@@ -13,12 +13,12 @@
 		243BBAFE1C3E192400182F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BBAFD1C3E192400182F94 /* Assets.xcassets */; };
 		243BBB181C3E1A1600182F94 /* NYURLPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0B1C3E1A1600182F94 /* NYURLPattern.m */; };
 		243BBB191C3E1A1600182F94 /* NYURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0D1C3E1A1600182F94 /* NYURLAction.m */; };
-		243BBB1A1C3E1A1600182F94 /* NYUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */; };
 		243BBB1B1C3E1A1600182F94 /* NYNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB111C3E1A1600182F94 /* NYNavigator.m */; };
 		243BBB1C1C3E1A1600182F94 /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB141C3E1A1600182F94 /* NSURL+Ext.m */; };
 		243BBB1D1C3E1A1600182F94 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB161C3E1A1600182F94 /* NSArray+Functional.m */; };
 		243BBB1F1C3E1A3B00182F94 /* urlmapping in Resources */ = {isa = PBXBuildFile; fileRef = 243BBB1E1C3E1A3B00182F94 /* urlmapping */; };
 		243BBB221C3E416100182F94 /* SecondUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB211C3E416100182F94 /* SecondUIViewController.m */; };
+		24F727BF1C3EADAC0036BD03 /* NYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F727BD1C3EADAC0036BD03 /* NYLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,6 @@
 		243BBB0C1C3E1A1600182F94 /* NYURLPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYURLPattern.h; path = ../../NYNavigator/NYURLPattern.h; sourceTree = "<group>"; };
 		243BBB0D1C3E1A1600182F94 /* NYURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYURLAction.m; path = ../../NYNavigator/NYURLAction.m; sourceTree = "<group>"; };
 		243BBB0E1C3E1A1600182F94 /* NYURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYURLAction.h; path = ../../NYNavigator/NYURLAction.h; sourceTree = "<group>"; };
-		243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYUIViewController.m; path = ../../NYNavigator/NYUIViewController.m; sourceTree = "<group>"; };
-		243BBB101C3E1A1600182F94 /* NYUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYUIViewController.h; path = ../../NYNavigator/NYUIViewController.h; sourceTree = "<group>"; };
 		243BBB111C3E1A1600182F94 /* NYNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYNavigator.m; path = ../../NYNavigator/NYNavigator.m; sourceTree = "<group>"; };
 		243BBB121C3E1A1600182F94 /* NYNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYNavigator.h; path = ../../NYNavigator/NYNavigator.h; sourceTree = "<group>"; };
 		243BBB131C3E1A1600182F94 /* NYNavigationViewControllerProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYNavigationViewControllerProtocal.h; path = ../../NYNavigator/NYNavigationViewControllerProtocal.h; sourceTree = "<group>"; };
@@ -46,6 +44,8 @@
 		243BBB1E1C3E1A3B00182F94 /* urlmapping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urlmapping; sourceTree = "<group>"; };
 		243BBB201C3E416100182F94 /* SecondUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondUIViewController.h; sourceTree = "<group>"; };
 		243BBB211C3E416100182F94 /* SecondUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondUIViewController.m; sourceTree = "<group>"; };
+		24F727BD1C3EADAC0036BD03 /* NYLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYLog.m; path = ../../NYNavigator/NYLog.m; sourceTree = "<group>"; };
+		24F727BE1C3EADAC0036BD03 /* NYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYLog.h; path = ../../NYNavigator/NYLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,12 @@
 		243BBB0A1C3E1A0700182F94 /* NYNavigator */ = {
 			isa = PBXGroup;
 			children = (
+				24F727BD1C3EADAC0036BD03 /* NYLog.m */,
+				24F727BE1C3EADAC0036BD03 /* NYLog.h */,
 				243BBB0B1C3E1A1600182F94 /* NYURLPattern.m */,
 				243BBB0C1C3E1A1600182F94 /* NYURLPattern.h */,
 				243BBB0D1C3E1A1600182F94 /* NYURLAction.m */,
 				243BBB0E1C3E1A1600182F94 /* NYURLAction.h */,
-				243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */,
-				243BBB101C3E1A1600182F94 /* NYUIViewController.h */,
 				243BBB111C3E1A1600182F94 /* NYNavigator.m */,
 				243BBB121C3E1A1600182F94 /* NYNavigator.h */,
 				243BBB131C3E1A1600182F94 /* NYNavigationViewControllerProtocal.h */,
@@ -193,7 +193,7 @@
 				243BBAF91C3E192400182F94 /* ViewController.m in Sources */,
 				243BBB181C3E1A1600182F94 /* NYURLPattern.m in Sources */,
 				243BBAF61C3E192400182F94 /* AppDelegate.m in Sources */,
-				243BBB1A1C3E1A1600182F94 /* NYUIViewController.m in Sources */,
+				24F727BF1C3EADAC0036BD03 /* NYLog.m in Sources */,
 				243BBAF31C3E192400182F94 /* main.m in Sources */,
 				243BBB1D1C3E1A1600182F94 /* NSArray+Functional.m in Sources */,
 				243BBB221C3E416100182F94 /* SecondUIViewController.m in Sources */,
@@ -331,6 +331,7 @@
 				243BBB071C3E192400182F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

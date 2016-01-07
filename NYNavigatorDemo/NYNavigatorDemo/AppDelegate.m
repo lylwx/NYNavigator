@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "NYNavigator.h"
 #import "ViewController.h"
-
+#import "NYLog.h"
 @interface AppDelegate ()
 
 @end
@@ -31,6 +31,7 @@
   [navigator setHandleableURLScheme:@"nymer"];
   // 绑定urlmapping文件
   [navigator setFileNamesOfURLMapping:@[ @"urlmapping" ]];
+  NYLog(@"didFinishLaunchingWithOptions");
 
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.window.rootViewController = _navigationController;

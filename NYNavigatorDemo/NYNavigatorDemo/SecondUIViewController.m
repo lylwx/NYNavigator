@@ -7,12 +7,14 @@
 //
 
 #import "SecondUIViewController.h"
-@interface SecondUIViewController ()
+#import "NYNavigationViewControllerProtocal.h"
+@interface SecondUIViewController () <NYNavigatorViewControllerProtocal>
 @property(nonatomic, strong) UITextView *textView;
 @property(nonatomic, copy) NSString *test;
 @end
 
 @implementation SecondUIViewController
+
 - (BOOL)handleWithURLAction:(NYURLAction *)urlAction {
   _test = [urlAction stringForKey:@"message"];
   return YES;

@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NYUIViewController.h"
 
-@interface ViewController : NYUIViewController
+@interface ViewController : UIViewController
 
 @end
