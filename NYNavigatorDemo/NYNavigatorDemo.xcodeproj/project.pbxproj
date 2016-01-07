@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243BBAF31C3E192400182F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBAF21C3E192400182F94 /* main.m */; };
+		243BBAF61C3E192400182F94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBAF51C3E192400182F94 /* AppDelegate.m */; };
+		243BBAF91C3E192400182F94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBAF81C3E192400182F94 /* ViewController.m */; };
+		243BBAFE1C3E192400182F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BBAFD1C3E192400182F94 /* Assets.xcassets */; };
+		243BBB181C3E1A1600182F94 /* NYURLPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0B1C3E1A1600182F94 /* NYURLPattern.m */; };
+		243BBB191C3E1A1600182F94 /* NYURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0D1C3E1A1600182F94 /* NYURLAction.m */; };
+		243BBB1A1C3E1A1600182F94 /* NYUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */; };
+		243BBB1B1C3E1A1600182F94 /* NYNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB111C3E1A1600182F94 /* NYNavigator.m */; };
+		243BBB1C1C3E1A1600182F94 /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB141C3E1A1600182F94 /* NSURL+Ext.m */; };
+		243BBB1D1C3E1A1600182F94 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB161C3E1A1600182F94 /* NSArray+Functional.m */; };
+		243BBB1F1C3E1A3B00182F94 /* urlmapping in Resources */ = {isa = PBXBuildFile; fileRef = 243BBB1E1C3E1A3B00182F94 /* urlmapping */; };
+		243BBB221C3E416100182F94 /* SecondUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BBB211C3E416100182F94 /* SecondUIViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		243BBAEE1C3E192300182F94 /* NYNavigatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYNavigatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		243BBAF21C3E192400182F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		243BBAF41C3E192400182F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		243BBAF51C3E192400182F94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		243BBAF71C3E192400182F94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		243BBAF81C3E192400182F94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		243BBAFD1C3E192400182F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		243BBB021C3E192400182F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243BBB0B1C3E1A1600182F94 /* NYURLPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYURLPattern.m; path = ../../NYNavigator/NYURLPattern.m; sourceTree = "<group>"; };
+		243BBB0C1C3E1A1600182F94 /* NYURLPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYURLPattern.h; path = ../../NYNavigator/NYURLPattern.h; sourceTree = "<group>"; };
+		243BBB0D1C3E1A1600182F94 /* NYURLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYURLAction.m; path = ../../NYNavigator/NYURLAction.m; sourceTree = "<group>"; };
+		243BBB0E1C3E1A1600182F94 /* NYURLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYURLAction.h; path = ../../NYNavigator/NYURLAction.h; sourceTree = "<group>"; };
+		243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYUIViewController.m; path = ../../NYNavigator/NYUIViewController.m; sourceTree = "<group>"; };
+		243BBB101C3E1A1600182F94 /* NYUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYUIViewController.h; path = ../../NYNavigator/NYUIViewController.h; sourceTree = "<group>"; };
+		243BBB111C3E1A1600182F94 /* NYNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYNavigator.m; path = ../../NYNavigator/NYNavigator.m; sourceTree = "<group>"; };
+		243BBB121C3E1A1600182F94 /* NYNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYNavigator.h; path = ../../NYNavigator/NYNavigator.h; sourceTree = "<group>"; };
+		243BBB131C3E1A1600182F94 /* NYNavigationViewControllerProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYNavigationViewControllerProtocal.h; path = ../../NYNavigator/NYNavigationViewControllerProtocal.h; sourceTree = "<group>"; };
+		243BBB141C3E1A1600182F94 /* NSURL+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "../../NYNavigator/NSURL+Ext.m"; sourceTree = "<group>"; };
+		243BBB151C3E1A1600182F94 /* NSURL+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "../../NYNavigator/NSURL+Ext.h"; sourceTree = "<group>"; };
+		243BBB161C3E1A1600182F94 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Functional.m"; path = "../../NYNavigator/NSArray+Functional.m"; sourceTree = "<group>"; };
+		243BBB171C3E1A1600182F94 /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Functional.h"; path = "../../NYNavigator/NSArray+Functional.h"; sourceTree = "<group>"; };
+		243BBB1E1C3E1A3B00182F94 /* urlmapping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urlmapping; sourceTree = "<group>"; };
+		243BBB201C3E416100182F94 /* SecondUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondUIViewController.h; sourceTree = "<group>"; };
+		243BBB211C3E416100182F94 /* SecondUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondUIViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		243BBAEB1C3E192300182F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		243BBAE51C3E192300182F94 = {
+			isa = PBXGroup;
+			children = (
+				243BBAF01C3E192300182F94 /* NYNavigatorDemo */,
+				243BBAEF1C3E192300182F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		243BBAEF1C3E192300182F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				243BBAEE1C3E192300182F94 /* NYNavigatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243BBAF01C3E192300182F94 /* NYNavigatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				243BBB0A1C3E1A0700182F94 /* NYNavigator */,
+				243BBAF41C3E192400182F94 /* AppDelegate.h */,
+				243BBAF51C3E192400182F94 /* AppDelegate.m */,
+				243BBAF71C3E192400182F94 /* ViewController.h */,
+				243BBAF81C3E192400182F94 /* ViewController.m */,
+				243BBB201C3E416100182F94 /* SecondUIViewController.h */,
+				243BBB211C3E416100182F94 /* SecondUIViewController.m */,
+				243BBAFD1C3E192400182F94 /* Assets.xcassets */,
+				243BBB021C3E192400182F94 /* Info.plist */,
+				243BBB1E1C3E1A3B00182F94 /* urlmapping */,
+				243BBAF11C3E192300182F94 /* Supporting Files */,
+			);
+			path = NYNavigatorDemo;
+			sourceTree = "<group>";
+		};
+		243BBAF11C3E192300182F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				243BBAF21C3E192400182F94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		243BBB0A1C3E1A0700182F94 /* NYNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				243BBB0B1C3E1A1600182F94 /* NYURLPattern.m */,
+				243BBB0C1C3E1A1600182F94 /* NYURLPattern.h */,
+				243BBB0D1C3E1A1600182F94 /* NYURLAction.m */,
+				243BBB0E1C3E1A1600182F94 /* NYURLAction.h */,
+				243BBB0F1C3E1A1600182F94 /* NYUIViewController.m */,
+				243BBB101C3E1A1600182F94 /* NYUIViewController.h */,
+				243BBB111C3E1A1600182F94 /* NYNavigator.m */,
+				243BBB121C3E1A1600182F94 /* NYNavigator.h */,
+				243BBB131C3E1A1600182F94 /* NYNavigationViewControllerProtocal.h */,
+				243BBB141C3E1A1600182F94 /* NSURL+Ext.m */,
+				243BBB151C3E1A1600182F94 /* NSURL+Ext.h */,
+				243BBB161C3E1A1600182F94 /* NSArray+Functional.m */,
+				243BBB171C3E1A1600182F94 /* NSArray+Functional.h */,
+			);
+			name = NYNavigator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		243BBAED1C3E192300182F94 /* NYNavigatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243BBB051C3E192400182F94 /* Build configuration list for PBXNativeTarget "NYNavigatorDemo" */;
+			buildPhases = (
+				243BBAEA1C3E192300182F94 /* Sources */,
+				243BBAEB1C3E192300182F94 /* Frameworks */,
+				243BBAEC1C3E192300182F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYNavigatorDemo;
+			productName = NYNavigatorDemo;
+			productReference = 243BBAEE1C3E192300182F94 /* NYNavigatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		243BBAE61C3E192300182F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					243BBAED1C3E192300182F94 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 243BBAE91C3E192300182F94 /* Build configuration list for PBXProject "NYNavigatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 243BBAE51C3E192300182F94;
+			productRefGroup = 243BBAEF1C3E192300182F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				243BBAED1C3E192300182F94 /* NYNavigatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		243BBAEC1C3E192300182F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243BBB1F1C3E1A3B00182F94 /* urlmapping in Resources */,
+				243BBAFE1C3E192400182F94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		243BBAEA1C3E192300182F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243BBAF91C3E192400182F94 /* ViewController.m in Sources */,
+				243BBB181C3E1A1600182F94 /* NYURLPattern.m in Sources */,
+				243BBAF61C3E192400182F94 /* AppDelegate.m in Sources */,
+				243BBB1A1C3E1A1600182F94 /* NYUIViewController.m in Sources */,
+				243BBAF31C3E192400182F94 /* main.m in Sources */,
+				243BBB1D1C3E1A1600182F94 /* NSArray+Functional.m in Sources */,
+				243BBB221C3E416100182F94 /* SecondUIViewController.m in Sources */,
+				243BBB1B1C3E1A1600182F94 /* NYNavigator.m in Sources */,
+				243BBB1C1C3E1A1600182F94 /* NSURL+Ext.m in Sources */,
+				243BBB191C3E1A1600182F94 /* NYURLAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		243BBB031C3E192400182F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		243BBB041C3E192400182F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		243BBB061C3E192400182F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch;
+				INFOPLIST_FILE = NYNavigatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ny.NYNavigatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		243BBB071C3E192400182F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch;
+				INFOPLIST_FILE = NYNavigatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ny.NYNavigatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		243BBAE91C3E192300182F94 /* Build configuration list for PBXProject "NYNavigatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243BBB031C3E192400182F94 /* Debug */,
+				243BBB041C3E192400182F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243BBB051C3E192400182F94 /* Build configuration list for PBXNativeTarget "NYNavigatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243BBB061C3E192400182F94 /* Debug */,
+				243BBB071C3E192400182F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 243BBAE61C3E192300182F94 /* Project object */;
+}
