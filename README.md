@@ -1,2 +1,2 @@
 # NYNavigator
-A tool for using scheme to open a UIViewController
+A tool for opening UIViewControllers by url scheme
